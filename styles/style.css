@@ -475,3 +475,8 @@ footer p {
     margin-right: 20px; /* Adjust spacing */
 }
 }
+@media (max-width: 444px) {
+  .journey__grid {
+    grid-template-columns: 1fr; /* Stack the grid items in a single column */
+  }
+}
